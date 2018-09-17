@@ -18,3 +18,5 @@ steps:
 
 - script: bundle exec rake
   displayName: 'bundle exec rake'
+
+- script: bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/azure/scripts/upload)
